@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, button, table, caption, tbody, tfoot, thead, tr, th, td { border: 0; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
+:focus { outline: 0; }
+body { 
+	background-color: #171217;
+	color: #fff; 
+	font: 100 12px/1.5 Helvetica, Arial, Sans-Serif; 
+	min-width: 600px;
+}
+h1 { 
+	margin: 50px 0 50px 50px;
+}
+h1 a { 
+	background: transparent url(../images/name.png) no-repeat 0 0;
+	display: block;
+	height: 44px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 224px;
+	-webkit-transition: background-position 0.2s ease;
+	   -moz-transition: background-position 0.2s ease;
+	    -ms-transition: background-position 0.2s ease;
+	     -o-transition: background-position 0.2s ease;
+	        transition: background-position 0.2s ease;
+}
+h1 a:hover {
+	background-position: 0 -44px;
+}
+div {
+	background-color: rgba(19,18,22,0.8);
+	float: right;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	padding: 20px;
+	width: 460px;
+}
+p {
+	text-shadow: 2px 1px #171217;
+}
+p + p {
+	margin-top: 1.25em;
+}
+a {
+	color: rgba(255,255,255,0.5);
+	text-decoration: none;
+	-webkit-transition: color 0.2s ease;
+	   -moz-transition: color 0.2s ease;
+	    -ms-transition: color 0.2s ease;
+	     -o-transition: color 0.2s ease;
+	        transition: color 0.2s ease;
+}
+a:hover {
+	color: #de1b23;
+}
+.colophon {
+	text-align: right;
+}
+.colophon span {
+	float: left;
+	margin-top: 2px;
+}
+small {
+	font-size: 10px;
+}
+
+@media(max-width:600px) {
+	body {
+		background: transparent url(../images/plaid_tile.jpg) repeat 12px -116px;
+		font-size: 14px;
+		min-width: 0;
+	}
+	h1 {
+		margin: 0;
+		padding: 20px;
+	}
+	h1 a:hover {
+		background-position: 0 0;
+	}
+	div {
+		background-color: rgba(19,18,22,0.4);
+		float: none;
+		margin-right: 0;
+		width: auto;
+	}
+	.colophon {
+		text-align: left;
+	}
+	.colophon span {
+		display: block;
+		float: none;
+		margin-top: 0;
+	}
+}
+@media only screen and (-webkit-device-pixel-ratio:2) {
+	h1 a {
+		background-image: url(../images/name_2x.png);
+		background-size: 224px;
+	}
+}

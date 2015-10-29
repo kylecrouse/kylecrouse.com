@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width">
+		<title>k|c</title>
+		<link href="styles/base.css" media="all" rel="stylesheet">
+		<link href="images/favicon.jpg" rel="shortcut icon">
+		<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+	</head>
+	<body>
+		<h1><a href="http://www.linkedin.com/in/kylecrouse" target="_blank" title="Get in touch">Kyle Crouse</a></h1>
+		<div>
+			<p>Hello, I am <a href="https://alpha.app.net/kylecrouse" rel="me">Kyle</a>. Developer of fine web programs to those whom I work with and to everyone else a beer-enthusiast, music-lover, traveler and occasional cruise director.</p>
+			<p>As titles go, I am currently a Principal Design Technologist for frog in NY. My primary role is as a lead front-end developer with a passion for accessible, progressive HTML, CSS and JavaScript. I develop rapid prototypes, corporate sites and web applications.</p>
+			<p>As tech lead on a recent project, I devised a Frankenstack comprised of Wordpress, NodeJS, MongoDB and Redis to deliver a modular, scalable website complete with RESTful API for future feature integration.
+			<p>I helped design and build a web-based mobile scavenger hunt for use at CES, featuring mobile checkpoints throughout Las Vegas and interactive TV panels depicting real-time game activity and leaderboards... all in a span of three weeks.</p>
+			<p>I joined the Obama campaign in 2008 as a front-end developer for the New Media Design team in Chicago, where I built many sites and worked cheek-to-cheek with talented designers (in a 3x5 cubical) to help get our Man elected.</p>
+			<p>I often dabble with new HTML5 techniques by recreating classic games and game shows such as Family Feud, JEOPARDY! and others. I&#8217;ve started an underground radio network and I&#8217;ve hosted and developed competitions for online racing simulation games.</p>
+			<p class="colophon"><small><span>Credits: background by <a href="http://www.pijama.it" target="_blank">Pijama</a>, title by <a href="http://www.typography.com" target="_blank">H&amp;FJ</a>.</span> Contact me via <a href="http://www.linkedin.com/in/kylecrouse" target="_blank">LinkedIn</a>.</small></p>
+		</div>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-871313-1']);
+		  _gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		<script src="scripts/libs/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script src="scripts/libs/jquery.backstretch.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			(function($){
+				function setBG( event ) {
+					var w = $( window ).width();
+					if ( w >= 600 && !$( '.backstretch' ).size() ) { $.backstretch("images/plaid.jpg"); }
+					else if ( w < 600 ) { $( '.backstretch' ).remove(); }
+				}
+				$( window ).resize( setBG );
+				setBG();
+			})(jQuery);
+		</script>
+	</body>
+</html>
